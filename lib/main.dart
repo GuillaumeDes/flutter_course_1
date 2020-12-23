@@ -27,7 +27,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Image(
-          image: AssetImage('assets/fractal.jpg')
+          image: AssetImage('assets/fractal2.jpeg')
         )
 
 
