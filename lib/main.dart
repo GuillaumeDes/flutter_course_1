@@ -26,10 +26,16 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.blue[200],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/fractal2.jpeg')
-        )
+        child: RaisedButton.icon(
+          onPressed: () {print("well clicked");},
+          icon: Icon(
+            Icons.mail
+          ),
+          label: Text("click here"),
+          color: Colors.black45
 
+
+        )
 
       ),
       floatingActionButton: FloatingActionButton(
