@@ -3,7 +3,6 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
 
 void main() => runApp(MaterialApp(
       home: Home()
@@ -28,7 +27,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Image(
-          image: NetworkImage('https://mikaelecanvil.com/wp-content/uploads/2019/09/fractal.jpg')
+          image: AssetImage('assets/fractal.jpg')
         )
 
 
