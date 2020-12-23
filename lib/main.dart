@@ -14,12 +14,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("The title of the app"),
-        centerTitle: true,
-        backgroundColor: Colors.blue[200],
-      ),
-      body: Center(
-        child: Text("this is the text of my first app",
+        title: Text("this is the text of my first app",
           style: TextStyle(
               fontSize: 20.0,
               fontWeight: FontWeight.w400,
@@ -28,6 +23,14 @@ class Home extends StatelessWidget {
               fontFamily: 'BangersRegular'
           ),
         ),
+        centerTitle: true,
+        backgroundColor: Colors.blue[200],
+      ),
+      body: Center(
+        child: Image(
+          image: NetworkImage('https://mikaelecanvil.com/wp-content/uploads/2019/09/fractal.jpg')
+        )
+
 
       ),
       floatingActionButton: FloatingActionButton(
